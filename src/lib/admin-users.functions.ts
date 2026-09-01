@@ -37,6 +37,4 @@ export const setUserPassword = createServerFn({ method: "POST" })
     if (error) throw new Error(error.message);
     return { ok: true };
   });
-    if (error) throw new Error(error.message);
-    return { ok: true };
-  });
+
